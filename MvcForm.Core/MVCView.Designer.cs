@@ -137,7 +137,7 @@
             this.buttonHelpContents});
             this.toolbar.Location = new System.Drawing.Point(0, 24);
             this.toolbar.Name = "toolbar";
-            this.toolbar.Size = new System.Drawing.Size(624, 25);
+            this.toolbar.Size = new System.Drawing.Size(728, 25);
             this.toolbar.TabIndex = 118;
             this.toolbar.Text = "toolStrip1";
             // 
@@ -319,7 +319,8 @@
             this.menuHelp});
             this.menu.Location = new System.Drawing.Point(0, 0);
             this.menu.Name = "menu";
-            this.menu.Size = new System.Drawing.Size(624, 24);
+            this.menu.Padding = new System.Windows.Forms.Padding(7, 2, 0, 2);
+            this.menu.Size = new System.Drawing.Size(728, 24);
             this.menu.TabIndex = 117;
             this.menu.Text = "menuStrip1";
             // 
@@ -569,53 +570,53 @@
             this.menuHelpContents.Image = global::MvcForm.Core.Properties.Resources.Contents;
             this.menuHelpContents.Name = "menuHelpContents";
             this.menuHelpContents.ShortcutKeys = System.Windows.Forms.Keys.F1;
-            this.menuHelpContents.Size = new System.Drawing.Size(181, 22);
+            this.menuHelpContents.Size = new System.Drawing.Size(201, 22);
             this.menuHelpContents.Text = "&Contents";
             this.menuHelpContents.Click += new System.EventHandler(this.menuHelpContents_Click);
             // 
             // menuHelpIndex
             // 
             this.menuHelpIndex.Name = "menuHelpIndex";
-            this.menuHelpIndex.Size = new System.Drawing.Size(181, 22);
+            this.menuHelpIndex.Size = new System.Drawing.Size(201, 22);
             this.menuHelpIndex.Text = "&Index";
             this.menuHelpIndex.Click += new System.EventHandler(this.menuHelpIndex_Click);
             // 
             // menuHelpOnlineHelp
             // 
             this.menuHelpOnlineHelp.Name = "menuHelpOnlineHelp";
-            this.menuHelpOnlineHelp.Size = new System.Drawing.Size(181, 22);
+            this.menuHelpOnlineHelp.Size = new System.Drawing.Size(201, 22);
             this.menuHelpOnlineHelp.Text = "&Online Help";
             this.menuHelpOnlineHelp.Click += new System.EventHandler(this.menuHelpOnlineHelp_Click);
             // 
             // toolStripSeparator3
             // 
             this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(178, 6);
+            this.toolStripSeparator3.Size = new System.Drawing.Size(198, 6);
             // 
             // menuHelpLicenceInformation
             // 
             this.menuHelpLicenceInformation.Name = "menuHelpLicenceInformation";
-            this.menuHelpLicenceInformation.Size = new System.Drawing.Size(181, 22);
+            this.menuHelpLicenceInformation.Size = new System.Drawing.Size(201, 22);
             this.menuHelpLicenceInformation.Text = "&Licence Information";
             this.menuHelpLicenceInformation.Click += new System.EventHandler(this.menuHelpLicenceInformation_Click);
             // 
             // menuHelpCheckForUpdates
             // 
             this.menuHelpCheckForUpdates.Name = "menuHelpCheckForUpdates";
-            this.menuHelpCheckForUpdates.Size = new System.Drawing.Size(181, 22);
+            this.menuHelpCheckForUpdates.Size = new System.Drawing.Size(201, 22);
             this.menuHelpCheckForUpdates.Text = "Check for &Updates";
             this.menuHelpCheckForUpdates.Click += new System.EventHandler(this.menuHelpCheckForUpdates_Click);
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(178, 6);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(198, 6);
             // 
             // menuHelpAbout
             // 
             this.menuHelpAbout.Image = global::MvcForm.Core.Properties.Resources.About;
             this.menuHelpAbout.Name = "menuHelpAbout";
-            this.menuHelpAbout.Size = new System.Drawing.Size(181, 22);
+            this.menuHelpAbout.Size = new System.Drawing.Size(201, 22);
             this.menuHelpAbout.Text = "&About MvcForm.Core ...";
             this.menuHelpAbout.Click += new System.EventHandler(this.menuHelpAbout_Click);
             // 
@@ -629,9 +630,10 @@
             this.StatusBarDirtyMessage,
             this.StatusBarNetworkIndicator,
             this.StatusBarCustomMessage});
-            this.statusBar.Location = new System.Drawing.Point(0, 420);
+            this.statusBar.Location = new System.Drawing.Point(0, 488);
             this.statusBar.Name = "statusBar";
-            this.statusBar.Size = new System.Drawing.Size(624, 22);
+            this.statusBar.Padding = new System.Windows.Forms.Padding(1, 0, 16, 0);
+            this.statusBar.Size = new System.Drawing.Size(728, 22);
             this.statusBar.TabIndex = 116;
             this.statusBar.Text = "statusStrip1";
             // 
@@ -648,7 +650,7 @@
             this.StatusBarErrorMessage.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.StatusBarErrorMessage.ForeColor = System.Drawing.Color.Red;
             this.StatusBarErrorMessage.Name = "StatusBarErrorMessage";
-            this.StatusBarErrorMessage.Size = new System.Drawing.Size(609, 17);
+            this.StatusBarErrorMessage.Size = new System.Drawing.Size(711, 17);
             this.StatusBarErrorMessage.Spring = true;
             this.StatusBarErrorMessage.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
@@ -656,7 +658,7 @@
             // 
             this.StatusBarProgressBar.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
             this.StatusBarProgressBar.Name = "StatusBarProgressBar";
-            this.StatusBarProgressBar.Size = new System.Drawing.Size(100, 16);
+            this.StatusBarProgressBar.Size = new System.Drawing.Size(117, 18);
             this.StatusBarProgressBar.Value = 10;
             this.StatusBarProgressBar.Visible = false;
             // 
@@ -698,51 +700,57 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(31, 55);
+            this.label1.Location = new System.Drawing.Point(36, 63);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(31, 13);
+            this.label1.Size = new System.Drawing.Size(33, 15);
             this.label1.TabIndex = 119;
             this.label1.Text = "Int32";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(31, 81);
+            this.label2.Location = new System.Drawing.Point(36, 93);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(34, 13);
+            this.label2.Size = new System.Drawing.Size(38, 15);
             this.label2.TabIndex = 120;
             this.label2.Text = "String";
             // 
             // txtSomeInt
             // 
-            this.txtSomeInt.Location = new System.Drawing.Point(72, 52);
+            this.txtSomeInt.Location = new System.Drawing.Point(84, 60);
+            this.txtSomeInt.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtSomeInt.Name = "txtSomeInt";
-            this.txtSomeInt.Size = new System.Drawing.Size(100, 20);
+            this.txtSomeInt.Size = new System.Drawing.Size(116, 23);
             this.txtSomeInt.TabIndex = 122;
             // 
             // txtSomeString
             // 
-            this.txtSomeString.Location = new System.Drawing.Point(72, 78);
+            this.txtSomeString.Location = new System.Drawing.Point(84, 90);
+            this.txtSomeString.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtSomeString.Name = "txtSomeString";
-            this.txtSomeString.Size = new System.Drawing.Size(100, 20);
+            this.txtSomeString.Size = new System.Drawing.Size(116, 23);
             this.txtSomeString.TabIndex = 123;
             // 
             // chkSomeBoolean
             // 
             this.chkSomeBoolean.AutoSize = true;
             this.chkSomeBoolean.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.chkSomeBoolean.Location = new System.Drawing.Point(21, 104);
+            this.chkSomeBoolean.Location = new System.Drawing.Point(24, 120);
+            this.chkSomeBoolean.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.chkSomeBoolean.Name = "chkSomeBoolean";
-            this.chkSomeBoolean.Size = new System.Drawing.Size(65, 17);
+            this.chkSomeBoolean.Size = new System.Drawing.Size(69, 19);
             this.chkSomeBoolean.TabIndex = 124;
             this.chkSomeBoolean.Text = "Boolean";
             this.chkSomeBoolean.UseVisualStyleBackColor = true;
             // 
             // cmdRun
             // 
-            this.cmdRun.Location = new System.Drawing.Point(537, 45);
+            this.cmdRun.Location = new System.Drawing.Point(626, 52);
+            this.cmdRun.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.cmdRun.Name = "cmdRun";
-            this.cmdRun.Size = new System.Drawing.Size(75, 23);
+            this.cmdRun.Size = new System.Drawing.Size(88, 27);
             this.cmdRun.TabIndex = 125;
             this.cmdRun.Text = "Run";
             this.cmdRun.UseVisualStyleBackColor = true;
@@ -752,42 +760,47 @@
             // 
             this.chkSomeOtherBoolean.AutoSize = true;
             this.chkSomeOtherBoolean.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.chkSomeOtherBoolean.Location = new System.Drawing.Point(196, 104);
+            this.chkSomeOtherBoolean.Location = new System.Drawing.Point(229, 120);
+            this.chkSomeOtherBoolean.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.chkSomeOtherBoolean.Name = "chkSomeOtherBoolean";
-            this.chkSomeOtherBoolean.Size = new System.Drawing.Size(65, 17);
+            this.chkSomeOtherBoolean.Size = new System.Drawing.Size(69, 19);
             this.chkSomeOtherBoolean.TabIndex = 130;
             this.chkSomeOtherBoolean.Text = "Boolean";
             this.chkSomeOtherBoolean.UseVisualStyleBackColor = true;
             // 
             // txtSomeOtherString
             // 
-            this.txtSomeOtherString.Location = new System.Drawing.Point(247, 78);
+            this.txtSomeOtherString.Location = new System.Drawing.Point(288, 90);
+            this.txtSomeOtherString.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtSomeOtherString.Name = "txtSomeOtherString";
-            this.txtSomeOtherString.Size = new System.Drawing.Size(100, 20);
+            this.txtSomeOtherString.Size = new System.Drawing.Size(116, 23);
             this.txtSomeOtherString.TabIndex = 129;
             // 
             // txtSomeOtherInt
             // 
-            this.txtSomeOtherInt.Location = new System.Drawing.Point(247, 52);
+            this.txtSomeOtherInt.Location = new System.Drawing.Point(288, 60);
+            this.txtSomeOtherInt.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtSomeOtherInt.Name = "txtSomeOtherInt";
-            this.txtSomeOtherInt.Size = new System.Drawing.Size(100, 20);
+            this.txtSomeOtherInt.Size = new System.Drawing.Size(116, 23);
             this.txtSomeOtherInt.TabIndex = 128;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(206, 81);
+            this.label3.Location = new System.Drawing.Point(240, 93);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(34, 13);
+            this.label3.Size = new System.Drawing.Size(38, 15);
             this.label3.TabIndex = 127;
             this.label3.Text = "String";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(206, 55);
+            this.label4.Location = new System.Drawing.Point(240, 63);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(31, 13);
+            this.label4.Size = new System.Drawing.Size(33, 15);
             this.label4.TabIndex = 126;
             this.label4.Text = "Int32";
             // 
@@ -795,50 +808,55 @@
             // 
             this.chkStillAnotherBoolean.AutoSize = true;
             this.chkStillAnotherBoolean.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.chkStillAnotherBoolean.Location = new System.Drawing.Point(368, 104);
+            this.chkStillAnotherBoolean.Location = new System.Drawing.Point(429, 120);
+            this.chkStillAnotherBoolean.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.chkStillAnotherBoolean.Name = "chkStillAnotherBoolean";
-            this.chkStillAnotherBoolean.Size = new System.Drawing.Size(65, 17);
+            this.chkStillAnotherBoolean.Size = new System.Drawing.Size(69, 19);
             this.chkStillAnotherBoolean.TabIndex = 135;
             this.chkStillAnotherBoolean.Text = "Boolean";
             this.chkStillAnotherBoolean.UseVisualStyleBackColor = true;
             // 
             // txtStillAnotherString
             // 
-            this.txtStillAnotherString.Location = new System.Drawing.Point(419, 78);
+            this.txtStillAnotherString.Location = new System.Drawing.Point(489, 90);
+            this.txtStillAnotherString.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtStillAnotherString.Name = "txtStillAnotherString";
-            this.txtStillAnotherString.Size = new System.Drawing.Size(100, 20);
+            this.txtStillAnotherString.Size = new System.Drawing.Size(116, 23);
             this.txtStillAnotherString.TabIndex = 134;
             // 
             // txtStillAnotherInt
             // 
-            this.txtStillAnotherInt.Location = new System.Drawing.Point(419, 52);
+            this.txtStillAnotherInt.Location = new System.Drawing.Point(489, 60);
+            this.txtStillAnotherInt.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtStillAnotherInt.Name = "txtStillAnotherInt";
-            this.txtStillAnotherInt.Size = new System.Drawing.Size(100, 20);
+            this.txtStillAnotherInt.Size = new System.Drawing.Size(116, 23);
             this.txtStillAnotherInt.TabIndex = 133;
             // 
             // lblStillAnotherString
             // 
             this.lblStillAnotherString.AutoSize = true;
-            this.lblStillAnotherString.Location = new System.Drawing.Point(378, 81);
+            this.lblStillAnotherString.Location = new System.Drawing.Point(441, 93);
+            this.lblStillAnotherString.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblStillAnotherString.Name = "lblStillAnotherString";
-            this.lblStillAnotherString.Size = new System.Drawing.Size(34, 13);
+            this.lblStillAnotherString.Size = new System.Drawing.Size(38, 15);
             this.lblStillAnotherString.TabIndex = 132;
             this.lblStillAnotherString.Text = "String";
             // 
             // lblStillAnotherInt
             // 
             this.lblStillAnotherInt.AutoSize = true;
-            this.lblStillAnotherInt.Location = new System.Drawing.Point(378, 55);
+            this.lblStillAnotherInt.Location = new System.Drawing.Point(441, 63);
+            this.lblStillAnotherInt.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblStillAnotherInt.Name = "lblStillAnotherInt";
-            this.lblStillAnotherInt.Size = new System.Drawing.Size(31, 13);
+            this.lblStillAnotherInt.Size = new System.Drawing.Size(33, 15);
             this.lblStillAnotherInt.TabIndex = 131;
             this.lblStillAnotherInt.Text = "Int32";
             // 
             // MVCView
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(624, 442);
+            this.ClientSize = new System.Drawing.Size(728, 510);
             this.Controls.Add(this.chkStillAnotherBoolean);
             this.Controls.Add(this.txtStillAnotherString);
             this.Controls.Add(this.txtStillAnotherInt);
@@ -859,6 +877,7 @@
             this.Controls.Add(this.menu);
             this.Controls.Add(this.statusBar);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Name = "MVCView";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "MVCView";
