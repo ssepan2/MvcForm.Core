@@ -1,0 +1,81 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "MvcForm.Core/1.0.0": {
+        "dependencies": {
+          "MvcLibrary.Core": "1.0.0",
+          "Ssepan.Application.Core": "1.0.0",
+          "Ssepan.Io.Core": "1.0.0",
+          "Ssepan.Utility.Core": "1.0.0"
+        },
+        "runtime": {
+          "MvcForm.Core.dll": {}
+        }
+      },
+      "MvcLibrary.Core/1.0.0": {
+        "dependencies": {
+          "Ssepan.Application.Core": "1.0.0",
+          "Ssepan.Io.Core": "1.0.0",
+          "Ssepan.Utility.Core": "1.0.0"
+        },
+        "runtime": {
+          "MvcLibrary.Core.dll": {}
+        }
+      },
+      "Ssepan.Application.Core/1.0.0": {
+        "dependencies": {
+          "Ssepan.Io.Core": "1.0.0",
+          "Ssepan.Utility.Core": "1.0.0"
+        },
+        "runtime": {
+          "Ssepan.Application.Core.dll": {}
+        }
+      },
+      "Ssepan.Io.Core/1.0.0": {
+        "dependencies": {
+          "Ssepan.Utility.Core": "1.0.0"
+        },
+        "runtime": {
+          "Ssepan.Io.Core.dll": {}
+        }
+      },
+      "Ssepan.Utility.Core/1.0.0": {
+        "runtime": {
+          "Ssepan.Utility.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MvcForm.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MvcLibrary.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Ssepan.Application.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Ssepan.Io.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Ssepan.Utility.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

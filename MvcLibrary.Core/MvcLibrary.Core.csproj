@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Class1.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Ssepan.Application.Core\Ssepan.Application.Core\Ssepan.Application.Core.csproj" />
+    <ProjectReference Include="..\..\Ssepan.Io.Core\Ssepan.Io.Core\Ssepan.Io.Core.csproj" />
+    <ProjectReference Include="..\..\Ssepan.Utility.Core\Ssepan.Utility.Core\Ssepan.Utility.Core.csproj" />
+  </ItemGroup>
+
+</Project>
