@@ -1,0 +1,38 @@
+﻿<Window x:Class="MvcFormWpf.Core.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MvcFormWpf.Core"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="480" Width="640">
+    <DockPanel LastChildFill="False" VerticalAlignment="Stretch">
+        <Menu x:Name="menu" DockPanel.Dock="Top" Height="25">
+            <MenuItem x:Name="mnuFile" Header="File" AutomationProperties.AccessKey="F">
+                <MenuItem x:Name="mnuFileNew" Header="New" AutomationProperties.AccessKey="N" AutomationProperties.AcceleratorKey="N"/>
+            </MenuItem>
+            <MenuItem x:Name="mnuEdit" Header="&amp;Edit"/>
+            <MenuItem x:Name="mnuWindow" Header="&amp;Window"/>
+            <MenuItem x:Name="mnuHelp" Header="&amp;Help"/>
+        </Menu>
+        <StatusBar DockPanel.Dock="Bottom" Height="25" >
+            <StatusBarItem x:Name="lblStatus" Height="25" VerticalAlignment="Center" Width="210
+                           " HorizontalAlignment="Left" AutomationProperties.Name="lblStatus">
+                <Label x:Name="label" Content="Label" />
+            </StatusBarItem>
+            <StatusBarItem x:Name="lblError" Height="25" VerticalAlignment="Center" Width="210" HorizontalAlignment="Left" AutomationProperties.Name="lblError" AutomationProperties.ItemType="ProgressBar">
+                <Label x:Name="label1" Content="Label"/>
+            </StatusBarItem>
+            <StatusBarItem x:Name="prgProgress" Height="25" VerticalAlignment="Center" Width="100" HorizontalAlignment="Left" AutomationProperties.Name="prgProgress">
+                <ProgressBar Height="10" Width="100"/>
+            </StatusBarItem>
+            <StatusBarItem x:Name="picAction" Height="25" VerticalAlignment="Center" Width="22" HorizontalAlignment="Right" AutomationProperties.Name="picAction">
+                <Image x:Name="image" Height="16" Width="16"/>
+            </StatusBarItem>
+            <StatusBarItem x:Name="picDirty" Height="25" VerticalAlignment="Center" Width="22" HorizontalAlignment="Right" AutomationProperties.Name="picDirty">
+                <Image x:Name="image1" Height="16" Width="16"/>
+            </StatusBarItem>
+        </StatusBar>
+        <ToolBar x:Name="toolBar" RenderTransformOrigin="3.378,0.919" DockPanel.Dock="Top" Height="30"/>
+    </DockPanel>
+</Window>

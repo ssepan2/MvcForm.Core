@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31105.61
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcForm.Core", "MvcForm.Core\MvcForm.Core.csproj", "{AC9A9F12-871A-43C7-BF8F-2CB21ACAB5D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MvcForm.Core", "MvcForm.Core\MvcForm.Core.csproj", "{AC9A9F12-871A-43C7-BF8F-2CB21ACAB5D6}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ssepan.Utility.Core", "..\Ssepan.Utility.Core\Ssepan.Utility.Core\Ssepan.Utility.Core.csproj", "{72164579-26C5-4A45-B255-8EB008606AA6}"
 EndProject
@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ssepan.Io.Core", "..\Ssepan
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ssepan.Application.Core", "..\Ssepan.Application.Core\Ssepan.Application.Core\Ssepan.Application.Core.csproj", "{6F635C6C-3697-4450-8499-687970172405}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcLibrary.Core", "MvcLibrary.Core\MvcLibrary.Core.csproj", "{34B38D82-5FEC-4855-B34C-64CDE4EABB68}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MvcLibrary.Core", "MvcLibrary.Core\MvcLibrary.Core.csproj", "{34B38D82-5FEC-4855-B34C-64CDE4EABB68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcFormWpf.Core", "MvcFormWpf.Core\MvcFormWpf.Core.csproj", "{B9426C55-3B40-4E13-B4FA-0D1D88B3229A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{34B38D82-5FEC-4855-B34C-64CDE4EABB68}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34B38D82-5FEC-4855-B34C-64CDE4EABB68}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34B38D82-5FEC-4855-B34C-64CDE4EABB68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9426C55-3B40-4E13-B4FA-0D1D88B3229A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9426C55-3B40-4E13-B4FA-0D1D88B3229A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9426C55-3B40-4E13-B4FA-0D1D88B3229A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9426C55-3B40-4E13-B4FA-0D1D88B3229A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
